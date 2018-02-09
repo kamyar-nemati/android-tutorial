@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context="com.kamyar.tutorial.fragmentsdiscussion.MainActivity">
 
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kamyar.tutorial.fragmentsdiscussion.TopFragment"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_top" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.kamyar.tutorial.fragmentsdiscussion.BottomFragment"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout="@layout/fragment_bottom" />
 </android.support.constraint.ConstraintLayout>

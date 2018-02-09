@@ -35,9 +35,9 @@
         android:id="@+id/sendButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="104dp"
+        android:layout_marginStart="188dp"
         android:layout_marginTop="16dp"
         android:text="@string/top_fragment_button_text"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputText" />
 </android.support.constraint.ConstraintLayout>
