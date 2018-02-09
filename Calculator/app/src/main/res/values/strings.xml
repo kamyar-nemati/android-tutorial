@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="inputALabel">Input 1</string>
+    <string name="inputBLabel">Input 2</string>
+    <string name="resultLabel">Result</string>
+    <string name="btnClearText">Clear</string>
+    <string name="btnAddText">+</string>
+    <string name="btnSubText">-</string>
+    <string name="btnMulText">*</string>
+    <string name="btnDivText">/</string>
 </resources>
