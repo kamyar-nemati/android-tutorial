@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Fragments Discussion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_fragment_text_view_text">Type to send:</string>
+    <string name="top_fragment_edit_text_text">Type here...</string>
+    <string name="top_fragment_button_text">Send</string>
+    <string name="bottom_fragment_text_view_text">To receive here:</string>
+    <string name="bottom_fragment_edit_text_text">...</string>
 </resources>
